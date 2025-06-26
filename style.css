@@ -1,0 +1,16 @@
+body{
+    background-color: #03346E;
+    color: white;
+}
+h2{
+    color: #FE7743;
+}
+.titulo_secao{
+    color: #EB3678;
+}
+#nome_cursista{
+    font-weight: bold;
+    font-size: 30px;
+    color: yellow;
+}
+
