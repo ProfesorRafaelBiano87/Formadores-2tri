@@ -25,4 +25,20 @@ let aluno1 = {
   idade: 13,
   anoLetivo: "2ºsérie",
   materiasFavoritas: ["Geografia","Programação","Arte"]
+
+  console.log(aluno1.nome);
+console.log(aluno1.idade);
+console.log(aluno1.materiasFavoritas);
+console.log(aluno1.materiasFavoritas[0]);
+
+const objeto = document.querySelector("#aluno");
+objeto.textContent = aluno1.nome;
+objeto.textContent = aluno1.idade;
+objeto.textContent = aluno1.anoLetivo;
+
+
+
+
+
+
 }
